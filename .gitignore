@@ -1,0 +1,34 @@
+# Ignore virtual environments
+venv/
+ENV/
+.venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment/OS files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore results and model outputs (optional)
+results/
+models/
+
+# Ignore dataset backups (optional)
+*.csv
+!data/merged_ads_data.csv  # Keep main dataset if needed
+
+# Ignore VS Code settings
+.vscode/
